@@ -1,6 +1,6 @@
 ## Project description
 
-I want to create my own mini research for the first mini project. I want to investigates the factors associated with national happiness, utilizing happiness scores from the World Population Review and key factors from Wikipedia tables. Two variables I will explore include GDP per capita and life expectancy, offering insights into the economic, environmental, educational, and health-related factors that influence happiness levels across countries.
+I want to create my own mini research for the first mini project. I want to investigates the factors associated with national happiness, utilizing happiness scores from the World Population Review and key factors from Wikipedia tables. Two variables I will explore include GDP per capita, literacy rates, and environmental index, offering insights into the economic, environmental, and educational factors that influence happiness levels across countries.
 
 ## Learning objectives
 
