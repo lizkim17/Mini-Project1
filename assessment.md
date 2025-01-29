@@ -24,11 +24,11 @@ CNetID:lizkim
 
 Section:1
 
-Mini-project title: How do economic,education, and environmental variables influence national happiness levels as reported by the World Population Review?
+Mini-project title: How do economic, education, and environmental variables influence national happiness levels as reported by the World Population Review?
 
-Submission date:1/23
+Submission date:1/28
 
-Project GitHub subdirectory URL: https://github.com/lizkim17/d2mr-assessment-lizkim/tree/main/Mini%20Project%201 
+Project GitHub subdirectory URL: https://github.com/lizkim17/Mini-Project1 
 
 URL or instructions to access additional materials, if needed:
 
@@ -447,16 +447,15 @@ If you believe you have demonstrated any of the above skills sufficiently to cou
 
 <!-- Explanation of demonstrated unassessed objectives below this line -->
 
-1.  use frequent, informative comments in code and markdown
-2.  find and understand documentation for R packages and functions
-3.  follow a debugging workflow with independent and collaborative strategies
-6.  customize RStudio
-8.  parse and write complex `for` and `while` loops
-9.  create and use intermediate datasets
-10. determine when code is better suited for a sourced script vs. a notebook chunk and source scripts appropriately
-14. define “tidy” data and explain its advantages and disadvantages
-15. recognize and interpret common data visualizations
-16. determine most appropriate visualizations and analyses for specific research questions and data
+1.  use frequent, informative comments in code and markdown -> throughout the Final Report. Rmd
+2.  find and understand documentation for R packages and functions -> throughout the Final Report. Rmd
+3.  follow a debugging workflow with independent and collaborative strategies -> throughout the Final Report. Rmd
+6.  customize RStudio -> throughout the Final Report. Rmd
+8.  parse and write complex `for` and `while` loops -> When tidying the data
+9.  create and use intermediate datasets -> When tidying the data for visualizations
+14. define “tidy” data and explain its advantages and disadvantages -> Right after the code for data scraping, I explained this
+15. recognize and interpret common data visualizations -> Data interpretation section
+16. determine most appropriate visualizations and analyses for specific research questions and data -> approached to create various types of plots and find the most appropriate ones
 
 <!-- Explanation of demonstrated unassessed objectives above this line -->
 
@@ -468,7 +467,7 @@ If you have demonstrated any off-the-syllabus skills related to the course but n
 
 1. scrape data from external sources -> scrapted data from wikipedia
 2. create a table of contents with links to each heading -> it is at the top of the document
-3. tidying the data using bind_rows and pivot_wider -> under Descriptive Statistics and Plots
+3. tidying the data in various ways (Ex. bind_rows and pivot_wider) -> under Descriptive Statistics and Plots
 4. Merge different datasets -> when creating plots
 5. Renaming columns -> when creating plots
 6. Add bins to the data using the specified quartiles when creating plots -> when creating plot for RQ3.
@@ -484,7 +483,7 @@ Overall, I am proud of what I produced. It was challenging in many ways, but the
 
 Creating different types of graphs was another hurdle, but it allowed me to creatively explore options, such as box plots where the x-axis is divided into interquartile ranges—a technique I found both interesting and effective.
 
-I believe my approach to tidying and merging complex datasets, along with my thoughtful interpretation of visualizations, demonstrated creativity and exceptional effort, which could contribute to earning engagement points for this assignment. Additionally, by producing a project that reads like an actual report that flows seamlessly from research questions to future directions/implications, I think I have accomplished a great project.
+I believe my approach to tidying and merging complex datasets, along with my thoughtful interpretation of visualizations, demonstrated creativity and exceptional effort, which could contribute to earning engagement points for this assignment. Additionally, by producing a project that reads like an actual report (word document) that flows seamlessly from research questions to future directions/implications, I think I have accomplished a great project.
 
 <!-- Do not edit below this line. -->
 

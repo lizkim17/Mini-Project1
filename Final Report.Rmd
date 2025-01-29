@@ -129,7 +129,11 @@ write_csv(environmental_quality_table, "environmental_quality.csv")
 head(environmental_quality_table)
 ```
 
-Here, I included the code to tidy the tables. The datasets comprises four tables, each offering insights into countries' happiness scores, GDP, literacy rates, and environmental performance. To briefly define “tidy” data and explain its advantages and disadvantages, 
+Here, I included the code to tidy the tables. The datasets comprises four tables, each offering insights into countries' happiness scores, GDP, literacy rates, and environmental performance. Tidy data follows a standardized structure where each variable forms a column, each observation forms a row, and each cell contains a single measurement.
+
+The advantages of tidy data are numerous. It simplifies data analysis by standardizing the structure, enabling easier manipulation, visualization, and modeling. Additionally, tidy data ensures compatibility with a wide range of tools and software, making workflows more streamlined. However, achieving a tidy format often requires significant transformation of raw data, which can be time-consuming. In some cases, restructuring data into a tidy format increases the number of rows, leading to larger file sizes and potential performance challenges with very large datasets.
+
+Despite these challenges, the benefits of tidy data outweigh the disadvantages in my dataset. I dropped NA variables, renamed variables, replaced missing or incorrectly formated values through functions, and etc. This process allowed me to easily read, interpret, and manipulate the data in order to create various appropriate plots for each dataset. Additionally, it made merging data more efficient and easy.
 
 ## Happiness Score Table
 
