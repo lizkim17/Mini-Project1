@@ -451,7 +451,7 @@ If you believe you have demonstrated any of the above skills sufficiently to cou
 2.  find and understand documentation for R packages and functions -> throughout the Final Report. Rmd
 3.  follow a debugging workflow with independent and collaborative strategies -> throughout the Final Report. Rmd
 6.  customize RStudio -> throughout the Final Report. Rmd
-8.  parse and write complex `for` and `while` loops -> When tidying the data
+8.  parse and write complex `for` and `while` loops -> When data scraping, inspecting tables to extract
 9.  create and use intermediate datasets -> When tidying the data for visualizations
 14. define “tidy” data and explain its advantages and disadvantages -> Right after the code for data scraping, I explained this
 15. recognize and interpret common data visualizations -> Data interpretation section
@@ -465,12 +465,14 @@ If you have demonstrated any off-the-syllabus skills related to the course but n
 
 <!-- Explanation of demonstrated off-the-syllabus skills below this line -->
 
-1. scrape data from external sources -> scrapted data from wikipedia
-2. create a table of contents with links to each heading -> it is at the top of the document
+1. Scrape data from external sources -> scrapted data from wikipedia
+2. Create a table of contents with links to each heading -> it is at the top of the document
 3. tidying the data in various ways (Ex. bind_rows and pivot_wider) -> under Descriptive Statistics and Plots
 4. Merge different datasets -> when creating plots
 5. Renaming columns -> when creating plots
 6. Add bins to the data using the specified quartiles when creating plots -> when creating plot for RQ3.
+7. Learn how to deal with inconsistencies in country names (e.g., differences in case, punctuation, or blank spaces)
+
 
 <!-- Explanation of demonstrated off-the-syllabus skills above this line -->
 
