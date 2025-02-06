@@ -73,19 +73,19 @@ Below each learning objective is a list of general expectations for meeting that
     2.  Uses relative paths correctly
     3.  Does not have duplicate/redundant elements
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
-        -   Grader comments: 
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
+        -   Grader comments: I suggest organizing files by putting them under different folders, including raw_data, processed_data, figures, code, reports, etc. It really helps when your project scales.
 
 2.  Maintain an informative and up-to-date README.md
 
     1.  Includes description of repo purpose, data use, research questions, etc.
     2.  Outlines the repo structure with file tree or similar
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 3.  Integrate a GitHub repo with an R studio project, including .gitignore file
@@ -93,9 +93,9 @@ Below each learning objective is a list of general expectations for meeting that
     1.  All scripts run and all notebooks render if the repo is cloned to another location
     2.  .gitingore comprehensively excludes unnecessary, private, and very large files and is be commeted appropriately
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 4.  Effectively use version control
@@ -103,10 +103,10 @@ Below each learning objective is a list of general expectations for meeting that
     1.  Used frequent, informative commit messages
     2.  Relies on document revisions rather than manually created new versions
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
-        -   Grader comments:
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
+        -   Grader comments: I understand the project might be done halfway before you created this new repository, but try utilizing the version control function of GitHub and having more meaningful commit messages for each functionality added to the project.
 
 ### R programming
 
@@ -115,9 +115,9 @@ Below each learning objective is a list of general expectations for meeting that
     1. No errors occur when running scripts in a new environment and/or comments sufficiently explain package installation requirements
     2. Uses more than one function to install/load/require packages
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 6.  Use arithmetic, comparison, and logical operators
@@ -136,9 +136,9 @@ Below each learning objective is a list of general expectations for meeting that
     2. Runs without error and produces expected output in at least 2 contexts
     3. Functions are well-documented with comments
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 8.  Parse and write conditional statements and/or loops
@@ -146,9 +146,9 @@ Below each learning objective is a list of general expectations for meeting that
     1. Uses conditional in multiple contexts, including dplyr pipelines
     2. Uses multiple types of conditional/loop functions (e.g., `if_else()`, `case_when()`, `for`, `while`)
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 ### Tidyverse
@@ -158,9 +158,9 @@ Below each learning objective is a list of general expectations for meeting that
     1. Reads in data from at least one source in code chunk or sourced script
     2. Writes out intermediate and/or final datasets in code chunks or sourced scripts
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 10. Use `dplyr` and `tidyr` functions to transform data
@@ -169,9 +169,9 @@ Below each learning objective is a list of general expectations for meeting that
     2. Uses at least 1 `tidyr` function in a data transformation pipeline
     3. Combines `dplyr` and `tidyr` functions in a data transformation pipeline
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 11. Use `stringr` functions to work with string variables
@@ -201,9 +201,9 @@ Below each learning objective is a list of general expectations for meeting that
     1. Creates at least 2 figures with different `geom_*` layers (e.g., a scatter plot and a bar plot)
     2. At least one plot is multi-variable
 
-        -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Objective attempt
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 14. Use dynamic aesthetics to group data
@@ -213,7 +213,7 @@ Below each learning objective is a list of general expectations for meeting that
         -   [ ] Objective attempt
         -   [v] Unique objective attempt
         -   [ ] Objective met
-        -   Grader comments:
+        -   Grader comments: While the code does use `aes()` args within ggplot2 for plotting, they are uniformly applied to all points and the regression line. This does not fully meet the requirement, which expects to see the visualizations of groups by, say, region or income in your data.
 
 15. Use facets to create parallel plots
 
@@ -233,8 +233,8 @@ Below each learning objective is a list of general expectations for meeting that
     4. Uses at least 1 static aesthetic (e.g., color, shape, size) that improves visual clarity without mapping to data
 
         -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments:
 
 ### Data analysis
@@ -246,9 +246,9 @@ Below each learning objective is a list of general expectations for meeting that
     3. Presents results in narrative text, table, or plot
 
         -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
-        -   Grader comments:
+        -   [X] Unique objective attempt
+        -   [X] Objective met
+        -   Grader comments: Note that calculation of summary/descriptive statistics for non-numeric variables seems to be not included, but I will count the partially met as a met.
 
 18. Perform simple hypothesis testing analyses for multiple data types
 
@@ -271,7 +271,7 @@ Below each learning objective is a list of general expectations for meeting that
         -   [ ] Objective attempt
         -   [v] Unique objective attempt
         -   [ ] Objective met
-        -   Grader comments:
+        -   Grader comments: There is a lack of explicit calculation and discussion about statistical significance; The code does not use dynamic inline R code to render data-dependent text, which expects to allow numbers change in the texts when the input data changes.
 
 ### BibTeX
 
@@ -309,8 +309,8 @@ Below each learning objective is a list of general expectations for meeting that
     4.  Chunks are distributed throughout the manuscript, sensibly placed near the text they support
 
         -   [ ] Objective attempt
-        -   [v] Unique objective attempt
-        -   [ ] Objective met
+        -   [X] Unique objective attempt
+        -   [X] Objective met
         -   Grader comments: 
         
 23. Use code chunks to set up a quarto document
@@ -336,7 +336,7 @@ Below each learning objective is a list of general expectations for meeting that
         -   [ ] Objective attempt
         -   [v] Unique objective attempt
         -   [ ] Objective met
-        -   Grader comments:
+        -   Grader comments: Figures and tables are mentioned but not formally referenced in the narrative.
 
 25. Execute descriptive analyses and/or hypothesis testing in code chunks
 
@@ -404,7 +404,7 @@ Below each learning objective is a list of general expectations for meeting that
         -   [ ] Objective attempt
         -   [v] Unique objective attempt
         -   [ ] Objective met
-        -   Grader comments:
+        -   Grader comments: To apply APA7 format, you need to specify it in the YAML header; the ouput needs to include all necessary elements (e.g., title page, abstract, body, references).
 
 ## Unassessed Objectives & Off-the-Syllabus Skills
 
@@ -491,13 +491,13 @@ I believe my approach to tidying and merging complex datasets, along with my tho
 
 ## Grader feedback
 
--   Grader:
--   Date:
--   Points toward unique objectives (up to 20): 
--   Additional points (up to 20):
--   TA provisional engagement points (up to 10):
+-   Grader: Mian
+-   Date: Feb 5, 2025
+-   Points toward unique objectives (up to 20): 13
+-   Additional points (up to 20): 9
+-   TA provisional engagement points (up to 10): 4
 -   Final approved engagement points (up to 10):
--   Total points (up to 50):
+-   Total points (up to 50): 26
 
 Engagement points are awarded for going above and beyond the expectations of the project and are not guaranteed on any given submission.. Demonstrating the assessed learning objectives earns you points in those categories, but engagement points are awarded for exceptional effort, creativity, or skill.
 
@@ -505,4 +505,4 @@ TAs may recommend engagement points provisionally, but the instructor will make 
 
 Additional comments: 
 
-
+Mian: Good job! The project and assessment shows a deep engagement and I appreciate your dedication to overcoming the technical challenges during the process. 
